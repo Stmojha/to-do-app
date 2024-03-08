@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url(DoodleBG.jpg);
+    background-size: auto;
+    background-position: center;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    margin: 0 auto; 
+    max-width: 600px;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    color: rgba(214, 189, 44, 0.822);
+    text-shadow: -1px 0 rgba(214, 189, 44, 0.822),0 1px rgba(214, 189, 44, 0.822),1px 0 rgba(214, 189, 44, 0.822),0 -1px rgba(214, 189, 44, 0.822);
+    box-shadow: 2px 2px 5px rgba(214, 189, 44, 0.822);
+    min-width: 350px;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+input[type=text]{
+    border: 1px solid rgba(214, 189, 44, 0.822);
+    border-radius: 2px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width:40%;
+    color: rgba(214, 189, 44, 0.822);
+}
+input[type=text]:focus{
+    border: 1px solid rgba(165, 142, 14, 0.979);
+    outline: none;
+}
+#add,.dlt{
+    background: none;
+    font: inherit;
+    border: 1px solid rgba(214, 189, 44, 0.822);
+}
+#add:hover,.dlt:hover{
+    border: 1px solid rgba(139, 122, 26, 0.822);
+    cursor:pointer;
+}
+#add:active,dlt:active{
+    background-color: rgba(214, 196, 114, 0.295);
+}
+li{
+    margin-bottom: 3px;
+}
+.dlt{
+    margin-left: 10px;
+    background-color: rgba(214, 189, 44, 0.822);
+    color: #eee;
+}
